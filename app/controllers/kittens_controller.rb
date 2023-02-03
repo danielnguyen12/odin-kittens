@@ -1,0 +1,3 @@
+class KittensController < ApplicationController
+  
+end
