@@ -6,7 +6,6 @@ class KittensController < ApplicationController
   end
 
   def show
-    render @kitten
   end
 
   def new
