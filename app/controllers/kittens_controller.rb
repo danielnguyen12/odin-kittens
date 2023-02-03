@@ -2,7 +2,7 @@ class KittensController < ApplicationController
   before_action :set_kitten, only: [:show, :edit, :update, :destroy]
 
   def index
-    @kittens = Kittens.all
+    @kittens = Kitten.all
   end
 
   def show
@@ -45,6 +45,6 @@ class KittensController < ApplicationController
   end
 
   def set_kitten
-    @kitten = Kittens.find(params[:id])
+    @kitten = Kitten.find(params[:id])
   end
 end
